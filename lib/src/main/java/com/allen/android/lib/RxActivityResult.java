@@ -15,7 +15,7 @@ import io.reactivex.Observable;
 public class RxActivityResult {
 
   public static final String TAG = "RxActivityResult";
-  Lazy<RxActivityResultFragment> mRxActivityResultFragment;
+  private Lazy<RxActivityResultFragment> mRxActivityResultFragment;
 
   public RxActivityResult(@NonNull FragmentActivity activity) {
     mRxActivityResultFragment = getLazySingleton(activity.getSupportFragmentManager());
