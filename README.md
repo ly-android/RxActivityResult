@@ -2,6 +2,21 @@
 > The purpose is to simplify the use of startActivityForResult.
 thanks [RxPermissions](https://github.com/tbruyelle/RxPermissions)
 
+- Step 1. Add the JitPack repository to your build filerepositories:
+```gradle
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+- Step 2. Add the dependency
+```gradle
+dependencies {
+	        implementation 'com.github.ly-android:RxActivityResult:1.0'
+	}
+```
 ### look smaple
 ``` java
 public class MainActivity extends FragmentActivity {
