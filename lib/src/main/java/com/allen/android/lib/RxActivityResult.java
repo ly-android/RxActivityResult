@@ -14,7 +14,7 @@ import io.reactivex.Observable;
  */
 public class RxActivityResult {
 
-  public static final String TAG = "RxActivityResult";
+  private static final String TAG = "RxActivityResult";
   private Lazy<RxActivityResultFragment> mRxActivityResultFragment;
 
   public RxActivityResult(@NonNull FragmentActivity activity) {
